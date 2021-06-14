@@ -20,16 +20,16 @@ function Header(){
                 <img src={mais} id="imagem"></img>
             </div>
 
-            <div class="bg-modal">
-                <div class="container">
-                    <textarea class="title"></textarea>
+            <div className="bg-modal">
+                <div className="container">
+                    <textarea className="title"></textarea>
                     <label for="story"></label>
-                    <textarea class="story"></textarea>
+                    <textarea className="story"></textarea>
 
 
     
-                    <button class="cancel" onClick={ cancela }>CANCELAR</button>
-                    <button class="save">SALVAR</button>
+                    <button className="cancel" onClick={ cancela }>CANCELAR</button>
+                    <button className="save">SALVAR</button>
 
                 </div>
 
