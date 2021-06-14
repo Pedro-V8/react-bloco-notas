@@ -1,0 +1,115 @@
+#linha{
+    border: 1px solid rgb(81, 229, 255);
+    outline: none;
+}
+
+h1{
+    color: rgb(85, 88, 88);
+    font-size: 50px;
+}
+
+#option{
+    height: 70px;
+    width: 70px;
+    margin-left: 700px;
+    border: 2px solid rgb(81, 229, 255);
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+#option:hover{
+    height: 75px;
+    width: 75px;
+    border: 2px solid rgb(181, 192, 194);
+
+}
+
+#imagem{
+    height: 70px;
+    width: 70px;
+}
+
+#imagem:hover{
+    height: 75px;
+    width: 75px;
+}
+
+
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 , 0 , 0 , 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+
+.container{
+    display: block;
+    width: 40vw;
+    height: 70vh;
+}
+
+.title{
+    color:rgb(85, 88, 88);
+    height: 5vh;
+    width: 35vw;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 35px;
+    border: 2px solid rgb(81, 229, 255);
+    font-size: 2em;
+}
+
+
+.story {
+    color:rgb(85, 88, 88);
+    background: #fffefe;
+    border: 2px solid rgb(81, 229, 255);
+    height: 60vh;
+    width: 35vw;
+    border-radius: 10px;
+    outline: none;
+    font: sans-serif;
+    font-size: 1.5em;
+
+}
+
+
+.cancel{
+    background-color: rgb(219, 222, 223);
+    font: sans-serif;
+    font-size: clamp(0.5em , 1.2vw, 3em);
+    color: rgb(85, 88, 88);
+    width: 11vw;
+    height: 5vh;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid  rgb(219, 222, 223);
+    outline: none;
+    margin-top: 10px;
+    margin-right: 13.5vw;
+    white-space: nowrap;                  
+    overflow: hidden; /* "overflow" value must be different from "visible" */
+    text-overflow: ellipsis;
+
+}
+
+.save{
+    background-color: rgb(81, 229, 255);
+    font: sans-serif;
+    font-size: clamp(0.5em , 1.2vw, 3em);
+    color: rgb(85, 88, 88);
+    width: 11vw;
+    height: 5vh;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid  rgb(81, 229, 255);
+    outline: none;
+}
+

@@ -1,0 +1,33 @@
+.lista{
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: -.25rem;
+    margin-left: -.25rem;
+    margin: 10px;
+    font-family: sans-serif; 
+    color: rgb(85, 88, 88);
+}
+
+
+.noteList{
+    width: 17vw;
+    height: 13vh;
+    border: 2px solid rgb(81, 229, 255);
+    border-radius: 10px;
+    white-space: nowrap;                 
+    overflow: hidden; /* "overflow" value must be different from "visible" */
+    text-overflow: ellipsis;
+
+}
+
+
+.titleList{
+    width: 17vw;
+    height: 3vh;
+    border: 2px solid rgb(2, 97, 114);
+    border-radius: 10px;
+    white-space: nowrap;                  
+    overflow: hidden; /* "overflow" value must be different from "visible" */
+    text-overflow: ellipsis;
+}
+
